@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1715676607 source:c:\laragon\www\assembly\arithmetics\arithm_asm.s
+
+1715677215 source:c:\laragon\www\assembly\arithmetics\main.c
+	<stdio.h>
+	<stdlib.h>
+

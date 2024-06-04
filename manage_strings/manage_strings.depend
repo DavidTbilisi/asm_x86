@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1716282134 source:c:\laragon\www\assembly\manage_strings\m_str.s
+
+1716541340 source:c:\laragon\www\assembly\manage_strings\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1716541320 source:c:\laragon\www\assembly\manage_strings\test.s
+

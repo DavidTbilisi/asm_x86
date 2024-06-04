@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1717185998 source:c:\laragon\www\assembly\compear_strings\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1717185932 source:c:\laragon\www\assembly\compear_strings\str_equal_asm.s
+
+1717145665 source:c:\laragon\www\assembly\compear_strings\math_asm.s
+

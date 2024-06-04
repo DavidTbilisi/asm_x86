@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1716279594 source:c:\laragon\www\assembly\arrays_asm\asm_file.s
+
+1716279206 source:c:\laragon\www\assembly\arrays_asm\main.c
+	<stdio.h>
+	<stdlib.h>
+

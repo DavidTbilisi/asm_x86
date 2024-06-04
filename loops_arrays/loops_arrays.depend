@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1715978363 source:c:\laragon\www\assembly\loops_arrays\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1715978646 source:c:\laragon\www\assembly\loops_arrays\loops.s
+

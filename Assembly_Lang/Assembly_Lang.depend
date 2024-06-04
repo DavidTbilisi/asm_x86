@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1715330806 source:c:\laragon\www\assembly_lang\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1715328770 source:c:\laragon\www\assembly_lang\second.s
+
+1715330260 source:c:\laragon\www\assembly_lang\asm_test1.s
+
+1715330657 source:c:\laragon\www\assembly_lang\stack_asm.s
+
+1715331593 source:c:\laragon\www\assembly_lang\pass.s
+
+1715390081 source:c:\laragon\www\assembly\assembly_lang\asm_test1.s
+
+1715588882 source:c:\laragon\www\assembly\assembly_lang\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1715328770 source:c:\laragon\www\assembly\assembly_lang\second.s
+
+1715330657 source:c:\laragon\www\assembly\assembly_lang\stack_asm.s
+
+1715354323 source:c:\laragon\www\assembly\assembly_lang\pass.s
+
+1715387259 source:c:\laragon\www\assembly\assembly_lang\test.s
+
+1715390081 source:c:\laragon\www\assembly\assembly_lang\accum.s
+
+1715328770 source:c:\laragon\www\assembly\assembly_lang\add.s
+
+1715632767 source:c:\laragon\www\assembly\assembly_lang\compare.s
+
+1715354323 source:c:\laragon\www\assembly\assembly_lang\inc.s
+
+1715632769 source:c:\laragon\www\assembly\assembly_lang\stack.s
+
