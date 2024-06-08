@@ -55,7 +55,7 @@ EDX: Called the Data register <br>
 |20   |  VIP  |   Virtual interrupt pending flag|
 |21   |  ID   |   ID flag|
 
-
+<br><br><br><br><br><br><br>
 
 
 
