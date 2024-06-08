@@ -35,6 +35,24 @@ EDX: Called the Data register <br>
                calls.
 
 
+## Segment registers
+
+CS         : Holds the Code segment in which your program runs.
+             Changing its value might make the computer hang.
+
+DS         : Holds the Data segment that your program accesses.
+             Changing its value might give erronous data.
+
+ES,FS,GS   : These are extra segment registers available for
+             far pointer addressing like video memory and such.
+
+SS         : Holds the Stack segment your program uses.
+             Sometimes has the same value as DS.
+             Changing its value can give unpredictable results,
+             mostly data related.
+
+
+
 |Bit|Label|Description|
 |--|--|--|
 | 0 | CF | Carry Flag |
