@@ -4,6 +4,7 @@ Course
 
 ## [REGISTERS](https://www.eecg.utoronto.ca/~amza/www.mindsec.com/files/x86regs.html)
 
+[Link 1](https://www.cs.oberlin.edu/~bob/cs331/Class%20Notes/March/March%2014/x86-64%20Assembler.pdf)
 
 General registers <br>
 EAX EBX ECX EDX
