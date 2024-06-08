@@ -39,4 +39,35 @@ EDX: Called the Data register <br>
 |--|--|--|
 | 0 | CF | Carry Flag |
 | 2 | PF | Parity Flag |
+|4  |    AF |     Auxiliary carry flag|
+|6  |   ZF     | Zero flag|
+|7  |    SF   |   Sign flag|
+|8  |    TF   |   Trap flag|
+|9  |    IF   |   Interrupt enable flag|
+|10  |   DF   |   Direction flag|
+|11   |  OF   |   Overflow flag|
+|12-13 | IOPL |   I/O Priviledge level|
+|14   |  NT   |   Nested task flag|
+|16   |  RF   |   Resume flag|
+|17   |  VM   |   Virtual 8086 mode flag|
+|18   |  AC   |   Alignment check flag (486+)|
+|19   |  VIF  |   Virutal interrupt flag|
+|20   |  VIP  |   Virtual interrupt pending flag|
+|21   |  ID   |   ID flag|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
