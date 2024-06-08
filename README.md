@@ -7,9 +7,6 @@ Course
 [Link 1](https://www.cs.oberlin.edu/~bob/cs331/Class%20Notes/March/March%2014/x86-64%20Assembler.pdf)
 [ASCII Interactive](https://typst.app/tools/ascii-table/)
 
-General registers <br>
-EAX EBX ECX EDX
-
 Segment registers <br>
 CS DS ES FS GS SS
 
@@ -21,20 +18,20 @@ EFLAGS
 
 ---
 
-
-EAX: Called the Accumulator register. <br> 
+### General registers
+`EAX`: Called the **Accumulator** register. <br> 
                It is used for I/O port access, arithmetic, interrupt calls,
                etc...
 
-EBX: Called the Base register <br>
+`EBX`: Called the **Base** register <br>
                It is used as a base pointer for memory access
                Gets some interrupt return values
 
-ECX: Called the Counter register <br>
+`ECX`: Called the **Counter** register <br>
                It is used as a loop counter and for shifts
                Gets some interrupt values
 
-EDX: Called the Data register <br>
+`EDX`: Called the **Data** register <br>
                It is used for I/O port access, arithmetic, some interrupt 
                calls.
 
