@@ -17,6 +17,8 @@ ESI EDI EBP EIP ESP
 Indicator <br>
 EFLAGS
 
+---
+
 
 EAX: Called the Accumulator register. <br> 
                It is used for I/O port access, arithmetic, interrupt calls,
