@@ -11,18 +11,24 @@ Course
 Segment registers <br>
 CS DS ES FS GS SS
 
-Index and pointers <br>
-`ESI` Destination index for string operations. This is used for string and memory array copying.  <br>
+## Index and pointers <br>
+`ESI` Destination index for string operations. This is used for string and memory array copying. Useful in repetitive data processing where it helps **streamline operations** like copying arrays, comparing strings, or scanning memory for a value.<br>
 `EDI` Source index for string operations. Essentially, this stores the start of the string that you’re saving to memory and is also used for string/memory copying.  <br>
 
-Stack pointers <br>
-`ESP` Top of the stack. Last pushed value.
-`EBP` Base of the stack. Everything moves around it. 
-`EIP` 
+## Stack pointers <br>
+- stack grows downwards in memory <br>
 
 
-Indicator <br>
-EFLAGS
+`ESP` (Extended Stack Pointer) Top of the stack. Last pushed value.  <br>
+`EBP`  (Extended Base Pointer) Base of the stack. Everything moves around it.   <br> 
+`EIP` (Extended Instruction Pointer) Holds the address of the next instruction to be executed in the program.
+```asm
+
+push eax        ; Pushes the value of EAX onto the stack
+                ; ESP is decreased by 4 (size of EAX)
+pop ebx         ; Pops the value from the top of the stack into EBX
+                ; ESP is increased by 4
+```
 
 ---
 
@@ -46,22 +52,22 @@ EFLAGS
 
 ## Segment registers
 
-CS         : Holds the Code segment in which your program runs.
-             Changing its value might make the computer hang.
+`CS`         : Holds the Code segment in which your program runs.
+             Changing its value might make the computer hang. <br>
 
-DS         : Holds the Data segment that your program accesses.
-             Changing its value might give erronous data.
+`DS`         : Holds the Data segment that your program accesses.
+             Changing its value might give erronous data. <br>
 
-ES,FS,GS   : These are extra segment registers available for
-             far pointer addressing like video memory and such.
+`ES,FS,GS`   : These are extra segment registers available for
+             far pointer addressing like video memory and such. <br>
 
-SS         : Holds the Stack segment your program uses.
+`SS`         : Holds the Stack segment your program uses.
              Sometimes has the same value as DS.
              Changing its value can give unpredictable results,
-             mostly data related.
+             mostly data related. <br>
 
-
-
+---
+## Flags
 |Bit|Label|Description|
 |--|--|--|
 | 0 | CF | Carry Flag |
