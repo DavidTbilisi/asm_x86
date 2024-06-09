@@ -107,7 +107,9 @@ ret                  ; Return to caller
 ## malloc 
 
 ```asm
-mov edi, 40 ; Allocate 40 bytes of space
+push size
+call _malloc
+add $4, esp          ; pop size
 ```
 <br><br><br><br><br><br><br>
 
