@@ -6,6 +6,7 @@ Course
 
 [Link 1](https://www.cs.oberlin.edu/~bob/cs331/Class%20Notes/March/March%2014/x86-64%20Assembler.pdf)
 [ASCII Interactive](https://typst.app/tools/ascii-table/)
+[OP CODES](https://sparksandflames.com/files/x86InstructionChart.html)
 
 Segment registers <br>
 CS DS ES FS GS SS
