@@ -104,7 +104,7 @@ ret                  ; Return to caller
 
 ```
 
-## malloc 
+## Malloc 
 
 ```asm
 push size
