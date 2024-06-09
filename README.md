@@ -12,7 +12,14 @@ Segment registers <br>
 CS DS ES FS GS SS
 
 Index and pointers <br>
-ESI EDI EBP EIP ESP
+`ESI` Destination index for string operations. This is used for string and memory array copying.  <br>
+`EDI` Source index for string operations. Essentially, this stores the start of the string that you’re saving to memory and is also used for string/memory copying.  <br>
+
+Stack pointers <br>
+`ESP` Top of the stack. Last pushed value.
+`EBP` Base of the stack. Everything moves around it. 
+`EIP` 
+
 
 Indicator <br>
 EFLAGS
@@ -75,6 +82,27 @@ SS         : Holds the Stack segment your program uses.
 |20   |  VIP  |   Virtual interrupt pending flag|
 |21   |  ID   |   ID flag|
 
+
+## Stack frame
+```asm
+; Function prologue
+push ebp             ; Save old base pointer
+mov ebp, esp         ; Set new base pointer
+
+; Function body (access local variables and parameters)
+
+; Function epilogue
+mov esp, ebp         ; Restore old stack pointer
+pop ebp              ; Restore old base pointer
+ret                  ; Return to caller
+
+```
+
+## malloc 
+
+```asm
+mov edi, 40 ; Allocate 40 bytes of space
+```
 <br><br><br><br><br><br><br>
 
 
